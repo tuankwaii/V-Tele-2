@@ -2,6 +2,7 @@ services:
   - type: web
     name: V-Tele-2
     env: python
+    pythonVersion: 3.10
     buildCommand: ""
     startCommand: python bot.py
     plan: free
